@@ -21,15 +21,38 @@
 
 
 // 
-const userLoggedIn=true
-const debitCard=true
-const loggedInFromGoogle=false
-const loggedInFromEmail=true
+// const userLoggedIn=true
+// const debitCard=true
+// const loggedInFromGoogle=false
+// const loggedInFromEmail=true
 
-if(userLoggedIn && debitCard && 2==3){
-console.log("allow to buy course");
+// if(userLoggedIn && debitCard && 2==3){
+// console.log("allow to buy course");
+// }
+
+// if (loggedInFromGoogle || loggedInFromEmail){
+// console.log("user logged in");
+// }
+
+//for
+for (let index = 0; index <= 10; index++) {
+    const element = index;
+
+    if(element==5){
+         console.log("5 is the best number");
+    }
+    console.log(element);  
 }
 
-if (loggedInFromGoogle || loggedInFromEmail){
-console.log("user logged in");
+
+
+for (let i = 0; i <=10 ; i++) {
+   console.log(`outer loop value:${i}`);
+   
+    for (let j = 0; j <=10; j++) {
+     //console.log(`inner loop value:${j}and inner loop ${i}`);
+      console.log(I +'*'+j+'='+i*j );
+       
+        
+    }
 }
